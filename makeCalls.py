@@ -4,6 +4,7 @@ import random
 
 class makeCalls:
 	"""A simple class to generate call signs from the countries sorrounding Denmark
+	If you want a lot of different call signs for each country, set simple to false in the constructor.
 """
 
 	def __init__(self, simple = False ):
